@@ -142,17 +142,26 @@
 
 input[type="text"],
 input[type="email"],
-input[type="number"],
+input[type="tel"],
 input[type="password"] {
   /* padding: 20px 10px; */
   line-height: 24px;
 }
 
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus {
+  border: 1px solid blue;
+  color: blue;
+  box-shadow: inset rgba(0, 0, 0, 0.2) 0px 2px 4px;
+}
+
+/* handle invalids */
+
 input::placeholder {
   font-size: 14px;
   font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
-  /* font-weight: 500; */
   opacity: 0.5;
-  /* color: red; */
 }
