@@ -21,7 +21,7 @@
   display: flex;
   flex: none;
   flex-direction: column;
-  background-image: url("/imgs/halie-west-plant.jpg");
+  background-image: url("./imgs/halie-west-plant.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
