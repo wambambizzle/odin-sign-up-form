@@ -153,7 +153,6 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 input[type="password"]:focus {
   border: 1px solid blue;
-  color: blue;
   box-shadow: inset rgba(0, 0, 0, 0.2) 0px 2px 4px;
 }
 
@@ -164,4 +163,10 @@ input::placeholder {
   font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0.5;
+}
+
+#first_name_validation:user-invalid,
+input[type="email"]:user-invalid,
+input[type="password"]:user-invalid {
+  outline: 1px red solid;
 }
