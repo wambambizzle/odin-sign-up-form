@@ -44,6 +44,7 @@
 
 .copy p,
 .form p {
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
   color: black;
@@ -82,8 +83,32 @@
 
 .form {
   background-color: white;
+  padding: 30px;
+}
+
+.form-title {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: black;
+  padding-bottom: 15px;
 }
 
 .form-group {
   display: flex;
+  gap: 80px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 12px;
+  width: 300px;
+}
+
+.form-row label {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
