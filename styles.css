@@ -31,10 +31,17 @@
 
 .content {
   flex: 1;
-  /* display: flex; */
-  /* padding: 50px; */
-  /* background-color: red; */
-  /* height: 100%; */
+  padding: 30px;
+}
+
+.copy > p {
+  padding-bottom: 25px;
+}
+
+.copy p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: black;
 }
 
 .branding {
