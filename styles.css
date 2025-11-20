@@ -5,3 +5,65 @@
   font-weight: normal;
   font-style: normal;
 }
+
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.hero-content {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  background-image: url("/imgs/halie-west-plant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  /* display: flex; */
+  /* padding: 50px; */
+  /* background-color: red; */
+  /* height: 100%; */
+}
+
+.branding {
+  display: flex;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65%;
+}
+
+.logo {
+  width: 100px;
+  padding: 18px 0px;
+}
+
+.branding p {
+  font-family: "norsebold";
+  font-size: 95px;
+}
+
+.shoutout {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  padding-bottom: 18px;
+}
+
+.shoutout,
+.shoutout a {
+  color: white;
+}
