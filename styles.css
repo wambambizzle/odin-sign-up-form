@@ -166,7 +166,7 @@ input::placeholder {
   opacity: 0.5;
 }
 
-#first_name_validation:user-invalid,
+.first_name_validation:user-invalid,
 input[type="email"]:user-invalid,
 input[type="password"]:user-invalid {
   outline: 1px red solid;
